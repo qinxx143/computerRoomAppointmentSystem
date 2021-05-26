@@ -1,0 +1,2 @@
+date:1 interval:1 stuId:1 stuName:杨鸣 roomId:1 status:1
+date:2 interval:2 stuId:2 stuName:郭艾伦 roomId:3 status:1

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="p282_computerRoomAppointmentSystem"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p282_computerRoomAppointmentSystem">
+				<Option output="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/p282_computerRoomAppointmentSystem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 p282_computerRoomAppointmentSystem"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p282_computerRoomAppointmentSystem/fast">
+				<Option output="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/p282_computerRoomAppointmentSystem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 p282_computerRoomAppointmentSystem/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/ComputerRoom.h">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/Identity.h">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/Manager.cpp">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/Manager.h">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/OrderFile.cpp">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/OrderFile.h">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/Student.cpp">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/Student.h">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/Teacher.cpp">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/Teacher.h">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/globalFile.h">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/main.cpp">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

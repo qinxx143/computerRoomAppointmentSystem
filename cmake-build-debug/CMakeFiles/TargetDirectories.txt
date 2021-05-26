@@ -1,0 +1,3 @@
+/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/CMakeFiles/p282_computerRoomAppointmentSystem.dir
