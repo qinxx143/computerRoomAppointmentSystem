@@ -7,6 +7,8 @@
 #include "globalFile.h"
 #include "ComputerRoom.h"
 #include "OrderFile.h"
+#include "algorithm"
+
 Student::Student(){
 
 };
@@ -129,15 +131,133 @@ void Student::applyOrder(){
 
 //show my order
 void Student::showOrder(){
+    OrderFile of;
+    if(of.size==0){
+        cout << "您没有预约记录" << endl;
+        return;
+    }
 
+    int num = 0;
+    cout << this->name << "的预约记录如下：" << endl;
+    for(int i=0; i<of.size;i++){
+        if(this->id == atoi(of.orderData[i]["stuId"].c_str())){
+            num++;
+            cout << num << "：";
+            cout << "日期：" << of.orderData[i]["date"] << " ";
+            cout << "时段：" << (of.orderData[i]["interval"] == "1" ? "上午":"下午") << " ";
+            cout << "机房：" << of.orderData[i]["roomId"] << " ";
+            string status = "状态："; // 0 取消的预约   1 审核中   2 已预约 -1 预约失败
+            if(of.orderData[i]["status"] == "1"){
+                status += "审核中";
+            }
+            else if(of.orderData[i]["status"] == "2"){
+                status += "已预约";
+            }
+            else if(of.orderData[i]["status"] == "-1"){
+                status += "预约失败";
+            }else{
+                status += "取消的预约";
+            }
+            cout << status;
+            cout << endl;
+        }
+    }
+    system("read -p '按任意键退出...' var");
+    system("clear");
 };
 
 //show all order
 void Student::showAllOrder(){
     OrderFile of;
+    if(of.size==0){
+        cout << "您没有预约记录" << endl;
+        system("read -p '按任意键退出...' var");
+        system("clear");
+        return;
+    }
+
+    cout << "所有的预约记录如下：" << endl;
+    for(int i=0; i<of.size;i++){
+        cout << i+1 << "：";
+        cout << "姓名：" << of.orderData[i]["stuName"] << " ";
+        cout << "日期：" << of.orderData[i]["date"] << " ";
+        cout << "时段：" << (of.orderData[i]["interval"] == "1" ? "上午":"下午") << " ";
+        cout << "机房：" << of.orderData[i]["roomId"] << " ";
+        string status = "状态："; // 0 取消的预约   1 审核中   2 已预约 -1 预约失败
+        if(of.orderData[i]["status"] == "1"){
+            status += "审核中";
+        }
+        else if(of.orderData[i]["status"] == "2"){
+            status += "已预约";
+        }
+        else if(of.orderData[i]["status"] == "-1"){
+            status += "预约失败";
+        }else{
+            status += "取消的预约";
+        }
+        cout << status;
+        cout << endl;
+
+    }
+    system("read -p '按任意键退出...' var");
+    system("clear");
 };
 
 //cancel order
 void Student::cancelOrder(){
+    OrderFile of;
+    if(of.size==0){
+        cout << "您没有预约记录" << endl;
+        system("read -p '按任意键退出...' var");
+        system("clear");
+        return;
+    }
 
+    vector<int> valid_num;
+    cout << this->name << "的预约记录如下：" << endl;
+    for(int i=0; i<of.size;i++){
+        if(this->id == atoi(of.orderData[i]["stuId"].c_str())){
+            valid_num.push_back(i);
+            cout << "编号：" << i << " ";
+            cout << "日期：" << of.orderData[i]["date"] << " ";
+            cout << "时段：" << (of.orderData[i]["interval"] == "1" ? "上午":"下午") << " ";
+            cout << "机房：" << of.orderData[i]["roomId"] << " ";
+            string status = "状态："; // 0 取消的预约   1 审核中   2 已预约 -1 预约失败
+            if(of.orderData[i]["status"] == "1"){
+                status += "审核中";
+            }
+            else if(of.orderData[i]["status"] == "2"){
+                status += "已预约";
+            }
+            else if(of.orderData[i]["status"] == "-1"){
+                status += "预约失败";
+            }else{
+                status += "取消的预约";
+            }
+            cout << status;
+            cout << endl;
+        }
+    }
+
+    cout << endl;
+    cout << "请输入取消的预约编号：";
+    int my_num = 0;
+    int sure = 0;
+    cin >> my_num;
+    vector<int>::iterator ret = find(valid_num.begin(),valid_num.end(),my_num);
+    if(ret != valid_num.end()){
+        cout << "确定取消？" << endl;
+        cout << "1. 确定" << endl;
+        cout << "2. 返回" << endl;
+        cin >> sure;
+        if(sure == 1){
+            of.orderData[my_num]["status"] = "0";
+            of.updateOrder();
+            cout << "取消成功" << endl;
+        }
+    }else{
+        cout << "输入编号不存在" << endl;
+    }
+    system("read -p '按任意键退出...' var");
+    system("clear");
 };
