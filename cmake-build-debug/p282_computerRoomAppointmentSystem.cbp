@@ -92,6 +92,12 @@
 		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/Manager.h">
 			<Option target="p282_computerRoomAppointmentSystem"/>
 		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/MenuInterface.cpp">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
+		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/MenuInterface.h">
+			<Option target="p282_computerRoomAppointmentSystem"/>
+		</Unit>
 		<Unit filename="/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/OrderFile.cpp">
 			<Option target="p282_computerRoomAppointmentSystem"/>
 		</Unit>
