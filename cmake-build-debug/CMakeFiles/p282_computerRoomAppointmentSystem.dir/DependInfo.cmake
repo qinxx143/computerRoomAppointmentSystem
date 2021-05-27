@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/Manager.cpp" "/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/CMakeFiles/p282_computerRoomAppointmentSystem.dir/Manager.cpp.o"
+  "/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/MenuInterface.cpp" "/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/CMakeFiles/p282_computerRoomAppointmentSystem.dir/MenuInterface.cpp.o"
   "/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/OrderFile.cpp" "/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/CMakeFiles/p282_computerRoomAppointmentSystem.dir/OrderFile.cpp.o"
   "/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/Student.cpp" "/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/CMakeFiles/p282_computerRoomAppointmentSystem.dir/Student.cpp.o"
   "/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/Teacher.cpp" "/Users/yaobinqin/CLionProjects/p282-computerRoomAppointmentSystem/cmake-build-debug/CMakeFiles/p282_computerRoomAppointmentSystem.dir/Teacher.cpp.o"

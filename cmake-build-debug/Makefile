@@ -169,6 +169,33 @@ Manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p282_computerRoomAppointmentSystem.dir/build.make CMakeFiles/p282_computerRoomAppointmentSystem.dir/Manager.cpp.s
 .PHONY : Manager.cpp.s
 
+MenuInterface.o: MenuInterface.cpp.o
+
+.PHONY : MenuInterface.o
+
+# target to build an object file
+MenuInterface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p282_computerRoomAppointmentSystem.dir/build.make CMakeFiles/p282_computerRoomAppointmentSystem.dir/MenuInterface.cpp.o
+.PHONY : MenuInterface.cpp.o
+
+MenuInterface.i: MenuInterface.cpp.i
+
+.PHONY : MenuInterface.i
+
+# target to preprocess a source file
+MenuInterface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p282_computerRoomAppointmentSystem.dir/build.make CMakeFiles/p282_computerRoomAppointmentSystem.dir/MenuInterface.cpp.i
+.PHONY : MenuInterface.cpp.i
+
+MenuInterface.s: MenuInterface.cpp.s
+
+.PHONY : MenuInterface.s
+
+# target to generate assembly for a file
+MenuInterface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p282_computerRoomAppointmentSystem.dir/build.make CMakeFiles/p282_computerRoomAppointmentSystem.dir/MenuInterface.cpp.s
+.PHONY : MenuInterface.cpp.s
+
 OrderFile.o: OrderFile.cpp.o
 
 .PHONY : OrderFile.o
@@ -289,6 +316,9 @@ help:
 	@echo "... Manager.o"
 	@echo "... Manager.i"
 	@echo "... Manager.s"
+	@echo "... MenuInterface.o"
+	@echo "... MenuInterface.i"
+	@echo "... MenuInterface.s"
 	@echo "... OrderFile.o"
 	@echo "... OrderFile.i"
 	@echo "... OrderFile.s"

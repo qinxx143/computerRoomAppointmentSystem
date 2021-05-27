@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/p282_computerRoomAppointmentSystem.dir/Manager.cpp.o"
+  "CMakeFiles/p282_computerRoomAppointmentSystem.dir/MenuInterface.cpp.o"
   "CMakeFiles/p282_computerRoomAppointmentSystem.dir/OrderFile.cpp.o"
   "CMakeFiles/p282_computerRoomAppointmentSystem.dir/Student.cpp.o"
   "CMakeFiles/p282_computerRoomAppointmentSystem.dir/Teacher.cpp.o"
